@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>민대식 - Portfolio</title>
+
+    <!-- Google Fonts: Pretendard alternative (Noto Sans KR) & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-glow"></div>
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">coreorders</a>
+            <nav class="nav">
+                <a href="#about">About</a>
+                <a href="#" id="site-info-link">Site Info</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="hero">
+            <div class="container hero-container">
+                <h2 class="hero-greeting">Hello, I'm</h2>
+                <h1 class="hero-name">민대식 <span class="nickname">(coreorders)</span></h1>
+                <p class="hero-desc">AI를 사용해 프로그램을 만드는 문과 출신 개발자입니다.<br>사용자 중심의 직관적이고 깔끔한 웹 경험을 만듭니다.</p>
+                <div class="hero-actions">
+                    <a href="#portfolio" class="btn btn-primary">프로젝트 보기</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="project-grid">
+                    <!-- Project 1: Sandbag Puncher -->
+                    <article class="project-card">
+                        <div class="card-image-wrapper">
+                            <!-- Placeholder for now, can be replaced with screenshot later -->
+                            <div class="card-placeholder gradient-1">🥊</div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">샌드백 키우기</h3>
+                            <div class="project-meta">
+                                <span class="meta-date">제작: 2025.12.15</span>
+                                <span class="meta-date update-date" data-repo="sandbag-puncher">Last Update: ...</span>
+                            </div>
+                            <p class="card-desc">스트레스를 날려버리는 쾌감! 샌드백을 타격하며 성장하는 방치형 클리커 게임입니다.</p>
+                            <div class="card-links">
+                                <a href="https://coreorders.github.io/sandbag-puncher/" target="_blank"
+                                    class="link-text">플레이하기 →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Ruthless Math Test -->
+                    <article class="project-card">
+                        <div class="card-image-wrapper">
+                            <div class="card-placeholder gradient-2">📝</div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">무자비 수학능력시험</h3>
+                            <div class="project-meta">
+                                <span class="meta-date">제작: 2025.12.17</span>
+                                <span class="meta-date update-date" data-repo="ruthless_math_test">Last Update:
+                                    ...</span>
+                            </div>
+                            <p class="card-desc">당신의 두뇌를 시험하는 무자비한 수학 퀴즈 게임. 제한 시간 내에 정답을 맞춰보세요.</p>
+                            <div class="card-links">
+                                <a href="https://coreorders.github.io/ruthless_math_test/" target="_blank"
+                                    class="link-text">도전하기 →</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <p class="footer-email">ddokddogi@gmail.com</p>
+                <p class="copyright">© 2025 Min Dae-sik. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Patch Notes Modal -->
+    <div id="patch-notes-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Patch Notes</h2>
+            <div id="patch-notes-body" class="markdown-body">
+                Loading...
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
