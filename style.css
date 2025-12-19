@@ -193,6 +193,17 @@ ul {
     transition: var(--transition);
 }
 
+.project-card-link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+.project-card-link .project-card {
+    height: 100%;
+}
+
+
 .project-card:hover {
     transform: translateY(-5px);
     border-color: rgba(129, 140, 248, 0.3);
@@ -220,6 +231,18 @@ ul {
 
 .gradient-2 {
     background: linear-gradient(45deg, #4834d4, #686de0);
+}
+
+.gradient-3 {
+    background: linear-gradient(45deg, #10ac84, #1dd1a1);
+}
+
+.gradient-4 {
+    background: linear-gradient(45deg, #f0932b, #ffbe76);
+}
+
+.gradient-5 {
+    background: linear-gradient(45deg, #3498db, #2980b9);
 }
 
 .card-content {
@@ -298,29 +321,30 @@ ul {
         justify-content: center;
     }
 }
+
 /* Modal Styles */
 .modal {
-    display: none; 
-    position: fixed; 
-    z-index: 2000; 
+    display: none;
+    position: fixed;
+    z-index: 2000;
     left: 0;
     top: 0;
-    width: 100%; 
-    height: 100%; 
-    overflow: auto; 
-    background-color: rgba(0,0,0,0.7); 
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(5px);
 }
 
 .modal-content {
     background-color: var(--bg-color);
-    margin: 10% auto; 
+    margin: 10% auto;
     padding: 30px;
     border: 1px solid var(--accent-primary);
     width: 80%;
     max-width: 800px;
     border-radius: 16px;
-    box-shadow: 0 5px 30px rgba(0,0,0,0.5);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
     position: relative;
     max-height: 80vh;
     overflow-y: auto;
@@ -370,4 +394,3 @@ ul {
 .update-date {
     color: var(--accent-primary);
 }
-
