@@ -1,6 +1,7 @@
 # PATCH NOTES
 
 [25년 12월 21일]
+- 포트폴리오 프로젝트 'zzim.site' 추가
 - GitHub API 미연동 프로젝트에서 정적 'Last Update' 표시 제거
 ---------
 [25년 12월 20일]
