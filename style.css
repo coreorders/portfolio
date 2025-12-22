@@ -256,6 +256,14 @@ ul {
     background: linear-gradient(45deg, #27ae60, #2ecc71);
 }
 
+.gradient-10 {
+    background: linear-gradient(45deg, #f1c40f, #f39c12);
+}
+
+.gradient-11 {
+    background: linear-gradient(45deg, #fbc531, #e1b12c);
+}
+
 .card-content {
     padding: 25px;
 }

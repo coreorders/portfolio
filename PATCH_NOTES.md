@@ -1,5 +1,9 @@
 # PATCH NOTES
 
+[25년 12월 22일]
+- 포트폴리오 프로젝트 'how much is my coins' 추가
+- 포트폴리오 프로젝트 '전기요금계산기' 추가
+---------
 [25년 12월 21일]
 - 포트폴리오 프로젝트 'zzim.site' 추가
 - GitHub API 미연동 프로젝트에서 정적 'Last Update' 표시 제거
